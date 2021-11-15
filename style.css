@@ -20,6 +20,9 @@ ul {
 .list2 {
   width: 100%;
 }
+ol {
+  list-style-type: lower-greek;
+}
 .container2 {
   margin: 20px;
   text-align: justify;
