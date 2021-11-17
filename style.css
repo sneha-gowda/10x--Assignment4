@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  background-color: blue;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  column-gap: 20px;
+}
+div[class^='list'] {
+  border: 1px solid black;
+  font-size: large;
+  background-color: burlywood;
+  padding: 5px;
+}
+.list1 {
+  width: 100%;
+}
+ul {
+  list-style-type: square;
+}
+.list2 {
+  width: 100%;
+}
+ol {
+  list-style-type: lower-greek;
+}
+.container2 {
+  margin: 20px;
+  text-align: justify;
+}
+.Image {
+  width: 120px;
+  height: 200px;
+  float: right;
+  margin-left: 10px;
+  background-color: black;
+}
